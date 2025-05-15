@@ -67,3 +67,10 @@ header h1 {
 .choice-item:hover {
   background: #4056f4;
 }
+.choice-item input[type="radio"] {
+  margin-right: 15px;
+  cursor: pointer;
+  accent-color: #4056f4; /* Radiopainikkeen korostusväri */
+  width: 20px;
+  height: 20px;
+}
