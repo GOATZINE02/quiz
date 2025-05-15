@@ -36,3 +36,8 @@ header h1 {
   color: #f8f9fa;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
+#question-number {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
