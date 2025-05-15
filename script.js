@@ -114,3 +114,9 @@ button:active:not(:disabled) {
   font-weight: 700;
   margin-bottom: 20px;
 }
+#score-text {
+  font-size: 2.5rem;
+  color: #76ff03; 
+  margin: 12px 0;
+  text-shadow: 2px 2px 8px #5cae00;
+}
