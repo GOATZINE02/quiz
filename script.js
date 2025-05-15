@@ -120,3 +120,10 @@ button:active:not(:disabled) {
   margin: 12px 0;
   text-shadow: 2px 2px 8px #5cae00;
 }
+#progress-container {
+  width: 100%;
+  background: #eee;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
