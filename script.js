@@ -24,3 +24,15 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+header h1 {
+  font-weight: 900;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  margin: 0;
+  color: #f8f9fa;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
