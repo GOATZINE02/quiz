@@ -41,3 +41,9 @@ header h1 {
   font-size: 1.1rem;
   margin-bottom: 8px;
 }
+#question-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  min-height: 60px;
+}
