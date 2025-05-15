@@ -134,3 +134,28 @@ button:active:not(:disabled) {
   border-radius: 5px;
   transition: width 0.3s ease; 
 }
+@media (max-width: 350px) {
+  #quiz-container {
+    width: 100vw; /* Täyttää koko näytön */
+    border-radius: 0;
+    padding: 20px 15px 25px 15px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  #question-text {
+    font-size: 1.1rem;
+  }
+
+  .choice-label {
+    font-size: 0.9rem;
+  }
+
+  button {
+    min-width: 90px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
