@@ -64,3 +64,6 @@ header h1 {
   align-items: center;
   padding: 10px 15px;
 }
+.choice-item:hover {
+  background: #4056f4;
+}
