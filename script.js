@@ -127,3 +127,10 @@ button:active:not(:disabled) {
   border-radius: 5px;
   margin: 10px 0;
 }
+#progress-bar {
+  height: 100%;
+  width: 0%; 
+  background: #4caf50; 
+  border-radius: 5px;
+  transition: width 0.3s ease; 
+}
