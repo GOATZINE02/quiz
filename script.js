@@ -52,3 +52,15 @@ header h1 {
   padding: 0;
   margin: 0 0 20px 0;
 }
+.choice-item {
+  background: #273469;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
