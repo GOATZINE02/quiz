@@ -101,3 +101,7 @@ button:disabled {
   box-shadow: none;
   cursor: default;
 }
+button:hover:not(:disabled) {
+  background: #2438d6;
+  box-shadow: 0 8px 14px rgba(36,56,214,0.9);
+}
