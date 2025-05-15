@@ -108,3 +108,9 @@ button:hover:not(:disabled) {
 button:active:not(:disabled) {
   transform: translateY(2px); 
 }
+#result {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
