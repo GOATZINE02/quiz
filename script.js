@@ -82,3 +82,17 @@ header h1 {
   display: flex;
   justify-content: space-between; /* Nappien väliin tilaa */
 }
+button {
+  background: #4056f4; /* Sininen tausta */
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 12px 25px;
+  border-radius: 30px; /* Pyöreä muoto */
+  box-shadow: 0 6px 10px rgba(64,86,244,0.7);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  min-width: 100px;
+}
