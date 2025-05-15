@@ -78,3 +78,7 @@ header h1 {
   flex: 1; /* Vie jäljelle jäävän tilan */
   font-size: 1rem;
 }
+#buttons {
+  display: flex;
+  justify-content: space-between; /* Nappien väliin tilaa */
+}
