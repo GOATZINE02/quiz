@@ -96,3 +96,8 @@ button {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   min-width: 100px;
 }
+button:disabled {
+  background: #7c84ff80; 
+  box-shadow: none;
+  cursor: default;
+}
