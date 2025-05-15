@@ -74,3 +74,7 @@ header h1 {
   width: 20px;
   height: 20px;
 }
+.choice-label {
+  flex: 1; /* Vie jäljelle jäävän tilan */
+  font-size: 1rem;
+}
