@@ -69,3 +69,8 @@ function renderQuestion() {
     li.appendChild(label);
     choicesListEl.appendChild(li);
   });  
+
+  updateNavButtons();
+  updateNextBtnState();
+  renderProgressBar();
+}
