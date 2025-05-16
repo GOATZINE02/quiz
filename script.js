@@ -114,3 +114,10 @@ function restartQuiz() {
   prevBtn.style.display = 'inline-block';
   renderQuestion();
 }
+
+prevBtn.addEventListener('click', () => {
+  if (currentQuestionIndex > 0) {
+    currentQuestionIndex--;
+    renderQuestion();
+  }
+});
