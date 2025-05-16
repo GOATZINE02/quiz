@@ -105,3 +105,12 @@ function showResult() {
   nextBtn.disabled = false;
   nextBtn.setAttribute('aria-label', 'Restart quiz');
 }
+
+function restartQuiz() {
+  userAnswers.fill(null);
+  currentQuestionIndex = 0;
+  resultEl.style.display = 'none';
+  quizContentEl.style.display = 'block';
+  prevBtn.style.display = 'inline-block';
+  renderQuestion();
+}
