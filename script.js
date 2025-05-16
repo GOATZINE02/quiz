@@ -27,6 +27,7 @@ const quizData = [
 ];
 let currentQuestionIndex = 0;
 let userAnswers = Array(quizData.length).fill(null);
+
 const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getOM-elementit
 const questionNumberEl = document.getElementById('question-number');
@@ -38,3 +39,7 @@ const scoreTextEl = document.getElementById('score-text');
 const progressBarEl = document.getElementById('progress-bar');
 function renderQuestion() {
   const { question, choices } = quizData[currentQuestionIndex];
+
+   questionNumberEl.textContent = `Question ${currentQuestionIndex + 1} of ${quizData.length}`;
+  questionTextEl.textContent = question;
+  choicesListEl.innerHTML = '';
