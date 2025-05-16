@@ -27,3 +27,12 @@ const quizData = [
 ];
 let currentQuestionIndex = 0;
 let userAnswers = Array(quizData.length).fill(null);
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getOM-elementit
+const questionNumberEl = document.getElementById('question-number');
+const questionTextEl = document.getElementById('question-text');
+const choicesLiElementById('next-btn');
+const quizContentEl = document.getElementById('quiz-content');
+const resultEl = document.getElementById('result');
+const scoreTextEl = document.getElementById('score-text');
+const progressBarEl = document.getElementById('progress-bar');
