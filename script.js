@@ -94,3 +94,14 @@ function updateNextBtnState() {
 function calculateScore() {
   return quizData.reduce((score, q, i) => score + (userAnswers[i] === q.answer ? 1 : 0), 0);
 }
+
+function showResult() {
+  const score = calculateScore();
+  quizContentEl.style.display = 'none';
+  resultEl.style.display = 'block';
+  scoreTextEl.textContent = `${score} / ${quizData.length}`;
+  prevBtn.style.display = 'none';
+  nextBtn.textContent = 'Restart';
+  nextBtn.disabled = false;
+  nextBtn.setAttribute('aria-label', 'Restart quiz');
+}
