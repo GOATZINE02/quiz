@@ -45,7 +45,7 @@ function renderQuestion() {
   questionTextEl.textContent = question;
   choicesListEl.innerHTML = '';
 
-    choices.forEach((choice, i) => {
+  choices.forEach((choice, i) => {
     const li = document.createElement('li');
     li.className = 'choice-item';
 
