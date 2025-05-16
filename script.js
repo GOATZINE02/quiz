@@ -90,3 +90,7 @@ function updateNavButtons() {
 function updateNextBtnState() {
   nextBtn.disabled = userAnswers[currentQuestionIndex] === null;
 }
+
+function calculateScore() {
+  return quizData.reduce((score, q, i) => score + (userAnswers[i] === q.answer ? 1 : 0), 0);
+}
