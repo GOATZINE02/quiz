@@ -40,6 +40,10 @@ const progressBarEl = document.getElementById('progress-bar');
 function renderQuestion() {
   const { question, choices } = quizData[currentQuestionIndex];
 
-   questionNumberEl.textContent = `Question ${currentQuestionIndex + 1} of ${quizData.length}`;
+  questionNumberEl.textContent = `Question ${currentQuestionIndex + 1} of ${quizData.length}`;
   questionTextEl.textContent = question;
   choicesListEl.innerHTML = '';
+
+    choices.forEach((choice, i) => {
+    const li = document.createElement('li');
+    li.className = 'choice-item';
