@@ -74,3 +74,16 @@ function renderQuestion() {
   updateNextBtnState();
   renderProgressBar();
 }
+
+function updateNavButtons() {
+  prevBtn.disabled = currentQuestionIndex === 0;
+
+  if (currentQuestionIndex === quizData.length - 1) {
+    nextBtn.textContent = 'Submit';
+    nextBtn.setAttribute('aria-label', 'Submit quiz');
+  } else {
+    nextBtn.textContent = 'Next';
+    nextBtn.setAttribute('aria-label', 'Next Question');
+  }
+}
+
