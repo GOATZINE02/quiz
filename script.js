@@ -54,3 +54,18 @@ function renderQuestion() {
     input.id = `choice-${i}`;
     input.value = i;
     input.checked = userAnswers[currentQuestionIndex] === i;
+
+    input.addEventListener('change', () => {
+      userAnswers[currentQuestionIndex] = i;
+      updateNextBtnState();
+    });
+
+    const label = document.createElement('label');
+    label.htmlFor = input.id;
+    label.className = 'choice-label';
+    label.textContent = choice;
+
+    li.appendChild(input);
+    li.appendChild(label);
+    choicesListEl.appendChild(li);
+  });  
