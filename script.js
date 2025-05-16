@@ -36,3 +36,5 @@ const quizContentEl = document.getElementById('quiz-content');
 const resultEl = document.getElementById('result');
 const scoreTextEl = document.getElementById('score-text');
 const progressBarEl = document.getElementById('progress-bar');
+function renderQuestion() {
+  const { question, choices } = quizData[currentQuestionIndex];
