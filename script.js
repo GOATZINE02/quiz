@@ -47,3 +47,10 @@ function renderQuestion() {
     choices.forEach((choice, i) => {
     const li = document.createElement('li');
     li.className = 'choice-item';
+
+    const input = document.createElement('input');
+    input.type = 'radio';
+    input.name = 'choice';
+    input.id = `choice-${i}`;
+    input.value = i;
+    input.checked = userAnswers[currentQuestionIndex] === i;
