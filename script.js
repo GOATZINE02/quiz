@@ -137,3 +137,5 @@ function renderProgressBar() {
   const progress = ((currentQuestionIndex) / quizData.length) * 100;
   progressBarEl.style.width = `${progress}%`;
 }
+
+renderQuestion();
