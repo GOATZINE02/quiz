@@ -121,3 +121,14 @@ prevBtn.addEventListener('click', () => {
     renderQuestion();
   }
 });
+
+nextBtn.addEventListener('click', () => {
+  if (nextBtn.textContent === 'Restart') {
+    restartQuiz();
+  } else if (nextBtn.textContent === 'Submit') {
+    showResult();
+  } else {
+    currentQuestionIndex++;
+    renderQuestion();
+  }
+});
