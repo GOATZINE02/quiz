@@ -25,3 +25,5 @@ const quizData = [
     answer: 1
   }
 ];
+let currentQuestionIndex = 0;
+let userAnswers = Array(quizData.length).fill(null);
