@@ -87,3 +87,6 @@ function updateNavButtons() {
   }
 }
 
+function updateNextBtnState() {
+  nextBtn.disabled = userAnswers[currentQuestionIndex] === null;
+}
